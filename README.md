@@ -1,7 +1,7 @@
 # Complete-QNMs
 Complete Quasinormal Modes of Black Holes 
 
-Author: Changkai Chen
+The dataset and code is developed and maintained by Changkai Chen \url{https://inspirehep.net/authors/2769419?ui-citation-summary=true}.
 
 The QNM dataset will be continuously updated.
 

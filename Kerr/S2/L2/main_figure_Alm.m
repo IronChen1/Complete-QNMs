@@ -1,3 +1,4 @@
+%% Visualization program for angular separation constants
 clc; clear;
 load('KerrQNM_L2.mat')
 ell = 2;

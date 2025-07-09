@@ -1,3 +1,4 @@
+%% Visualization program for Kerr QNM frequencies
 clc; clear;
 load('KerrQNM_L2.mat')
 ell = 2;

@@ -9,6 +9,7 @@ The QNM dataset will be continuously updated.
 # How to cite
 
 @article{Chen:2025sbz,
+
     author = "Chen, Changkai and Jing, Jiliang and Cao, Zhoujian and Wang, Mengjie",
     
     title = "{Complete quasinormal modes of Type-D black holes}",

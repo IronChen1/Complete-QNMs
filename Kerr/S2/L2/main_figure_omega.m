@@ -7,8 +7,8 @@ overtone = 0; % The modifiable overtones range from 0 to 41.
 % the second column is the angular separation constant, 
 % and the third column is the rotation parameters from 0 to 0.999.
 % The naming of the data is: 
-% s2n0l2m1_Kerr.mat represents the QNM dataset of Kerr, with overtone = 0, ell = 2, and m = 1.
-% s2n0l2mf1_Kerr.mat represents the QNM dataset of Kerr, with overtone = 0, ell = 2, and m = -1.
+% s2n0l2m1_Kerr represents the QNM dataset of Kerr, with overtone = 0, ell = 2, and m = 1.
+% s2n0l2mf1_Kerr represents the QNM dataset of Kerr, with overtone = 0, ell = 2, and m = -1.
 
 
 %The QNMs of any overtones have and only have 2ell + 1 sequences.

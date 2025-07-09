@@ -1,5 +1,5 @@
 %% The first 42 QNMs for the gravitational perturbations of the Schwarzschild BH.
-%% 可视化程序
+%% Visualization program
 clc;clear;
 %%　Load data　
 load('s2l2_Sch.mat')

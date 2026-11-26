@@ -34,3 +34,21 @@ The QNM dataset will be continuously updated.
     
 }
 
+
+## Extremal Kerr dataset
+
+The updated Kerr dataset and plotting programs are available in [Kerr/S2/Kerr_Spectrum_20261126](Kerr/S2/Kerr_Spectrum_20261126). Earlier datasets remain in their original directories.
+
+For the extremal Kerr results, please also cite:
+
+```bibtex
+@article{Chen:2026hjt,
+    author = "Chen, Changkai and Zhang, Xiaohua and Cao, Zhoujian and Jing, Jiliang",
+    title = "{Complete quasinormal modes of Type-D black holes. II. Extremal Kerr black holes}",
+    eprint = "2610.39095",
+    archivePrefix = "arXiv",
+    primaryClass = "gr-qc",
+    month = "10",
+    year = "2026"
+}
+```

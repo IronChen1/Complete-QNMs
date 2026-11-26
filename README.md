@@ -37,7 +37,7 @@ The QNM dataset will be continuously updated.
 
 ## Extremal Kerr dataset
 
-The updated Kerr dataset and plotting programs are available in [Kerr/S2/Kerr_Spectrum_20261126](Kerr/S2/Kerr_Spectrum_20261126). Earlier datasets remain in their original directories.
+The updated dataset and plotting programs in [Kerr/S2/Kerr_Spectrum](Kerr/S2/Kerr_Spectrum) include both nonextremal and extremal Kerr spectra for ell = 2, 3 and Schwarzschild parent overtones 0 through 41. The workbook combines finite-spin samples with a/M = 1 endpoints, including isolated extremal QNM roots and zero-damping accumulation limits, distinguished by the endpoint_type column. Each overtone has its own worksheet, ordered by ell, m, and a/M. Frequency and spin values are stored as text to preserve all source digits. Earlier datasets remain in their original directories.
 
 For the extremal Kerr results, please also cite:
 

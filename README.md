@@ -1,13 +1,43 @@
 # Complete-QNMs
-Complete Quasinormal Modes of Black Holes 
 
-The dataset and code is developed and maintained by Changkai Chen.
+Quasinormal-mode (QNM) spectra and visualization programs for Schwarzschild, Kerr, Reissner–Nordström (RN), and Kerr–Newman (KN) black holes, developed and maintained by Changkai Chen. The repository accompanies the *Complete quasinormal modes of Type-D black holes* series and is continuously updated.
 
-The QNM dataset will be continuously updated.
+## Contents
 
+| Black hole | Dataset and programs | Coverage |
+| --- | --- | --- |
+| Schwarzschild | [Schwarzschild/S2](Schwarzschild/S2) | Gravitational QNM spectra for ell = 2, 3, with MATLAB visualization. |
+| Kerr | [Kerr/S2/Kerr_Spectrum](Kerr/S2/Kerr_Spectrum) | Nonextremal and extremal gravitational spectra for ell = 2, 3 and parent overtones 0–41; MATLAB, Mathematica, and Python visualization. |
+| Reissner–Nordström (RN) | [Reissner-Nordstrom](Reissner-Nordstrom) | Gravitational spectra from zero to extremal charge for ell = 2, 3 and parent overtones 0–41; MATLAB, Mathematica, and Python visualization. |
+| Kerr–Newman (KN) | See the Type-D study cited below | Part of the research scope; a dedicated dataset directory has not yet been uploaded. |
 
-# How to cite
+## Kerr spectra, including extremal Kerr
 
+`Kerr/S2/Kerr_Spectrum/Kerr_spectrum.xlsx` combines nonextremal samples and a/M = 1 endpoints in one workbook. Each Schwarzschild parent overtone has its own worksheet, ordered by ell, m, and a/M. The `endpoint_type` column distinguishes isolated extremal QNM roots from zero-damping accumulation limits. Frequency and spin values are stored as text to retain all source digits.
+
+The earlier L2, L3, and L4 datasets and programs are preserved in [Kerr/S2/Old_Version](Kerr/S2/Old_Version).
+
+- **MATLAB:** open `plot_qnm.m`, set `ell` and `overtone`, and run the script. The original plotting style and datatip configuration are retained.
+- **Mathematica:** load `plot_qnm.wl`, then run `PlotKerrQNM[2,0]`.
+- **Python:** run `python plot_qnm.py --ell 2 --n 0`.
+
+## Reissner–Nordström spectra
+
+`Reissner-Nordstrom/RN_spectrum.xlsx` contains one worksheet per overtone, with columns `ell`, `hat_n`, `Q`, `omega_re`, and `omega_im`. Additional roots without an assigned parent among the first 42 families are excluded.
+
+- **MATLAB:** `plot_RN` for all families or `plot_RN(2,8)` for one family.
+- **Mathematica:** load `plot_RN.wl`, then run `RNPlot[]` or `RNPlot[2,8]`.
+- **Python:** `python plot_RN.py` or `python plot_RN.py --ell 2 --n 8`.
+
+## How to cite
+
+Please cite the papers relevant to the data used.
+
+### I. Type-D black holes
+
+[Physical Review D 112, 103036 (2025)](https://doi.org/10.1103/f8m8-vr4l) · [arXiv:2506.14635](https://arxiv.org/abs/2506.14635)
+
+```bibtex
 @article{Chen:2025sbz,
 
     author = "Chen, Changkai and Jing, Jiliang and Cao, Zhoujian and Wang, Mengjie",
@@ -33,13 +63,11 @@ The QNM dataset will be continuously updated.
     year = "2025"
     
 }
+```
 
+### II. Extremal Kerr black holes
 
-## Extremal Kerr dataset
-
-The updated dataset and plotting programs in [Kerr/S2/Kerr_Spectrum](Kerr/S2/Kerr_Spectrum) include both nonextremal and extremal Kerr spectra for ell = 2, 3 and Schwarzschild parent overtones 0 through 41. The workbook combines finite-spin samples with a/M = 1 endpoints, including isolated extremal QNM roots and zero-damping accumulation limits, distinguished by the endpoint_type column. Each overtone has its own worksheet, ordered by ell, m, and a/M. Frequency and spin values are stored as text to preserve all source digits. Earlier Kerr S2 datasets and plotting programs are preserved in [Kerr/S2/Old_Version](Kerr/S2/Old_Version), under L2, L3, and L4.
-
-For the extremal Kerr results, please also cite:
+[arXiv:2610.39095](https://arxiv.org/abs/2610.39095)
 
 ```bibtex
 @article{Chen:2026hjt,
@@ -53,15 +81,9 @@ For the extremal Kerr results, please also cite:
 }
 ```
 
-## Reissner–Nordström spectra
+### III. Reissner–Nordström spectra
 
-[Dataset and plotting programs](Reissner-Nordstrom/) for the first 42 gravitational overtone families at each of ell = 2 and 3. The workbook contains one sheet per overtone, with columns ell, hat_n, Q, omega_re, omega_im. Additional roots without an assigned parent among these families are excluded.
-
-MATLAB: `plot_RN` (all), `plot_RN(2,8)` (one family).
-Mathematica: load `plot_RN.wl`, then `RNPlot[]` or `RNPlot[2,8]`.
-Python: `python plot_RN.py` or `python plot_RN.py --ell 2 --n 8`.
-
-Paper: [arXiv:2611.24647](https://arxiv.org/abs/2611.24647).
+[arXiv:2611.24647](https://arxiv.org/abs/2611.24647)
 
 ```bibtex
 @article{Chen:2026swp,

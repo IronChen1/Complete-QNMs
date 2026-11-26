@@ -52,3 +52,25 @@ For the extremal Kerr results, please also cite:
     year = "2026"
 }
 ```
+
+## Reissner–Nordström spectra
+
+[Dataset and plotting programs](Reissner-Nordstrom/) for the first 42 gravitational overtone families at each of ell = 2 and 3. The workbook contains one sheet per overtone, with columns ell, hat_n, Q, omega_re, omega_im. Additional roots without an assigned parent among these families are excluded.
+
+MATLAB: `plot_RN` (all), `plot_RN(2,8)` (one family).
+Mathematica: load `plot_RN.wl`, then `RNPlot[]` or `RNPlot[2,8]`.
+Python: `python plot_RN.py` or `python plot_RN.py --ell 2 --n 8`.
+
+Paper: [arXiv:2611.24647](https://arxiv.org/abs/2611.24647).
+
+```bibtex
+@article{Chen:2026swp,
+    author = "Chen, Changkai and Zhang, Xiaohua and Cao, Zhoujian and Jing, Jiliang",
+    title = {{Complete quasinormal modes of Type-D black holes. III. Reissner-Nordstr{\"o}m spectra from zero to extremal charge}},
+    eprint = "2611.24647",
+    archivePrefix = "arXiv",
+    primaryClass = "gr-qc",
+    month = "11",
+    year = "2026"
+}
+```

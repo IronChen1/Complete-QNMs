@@ -1,15 +1,15 @@
 # Complete-QNMs
 
-Quasinormal-mode (QNM) spectra and visualization programs for Schwarzschild, Kerr, Reissner–Nordström (RN), and Kerr–Newman (KN) black holes, developed and maintained by Changkai Chen. The repository accompanies the *Complete quasinormal modes of Type-D black holes* series and is continuously updated.
+This repository accompanies the *Complete quasinormal modes of Type-D black holes* series and covers four black hole families: Schwarzschild, Kerr, Reissner–Nordström (RN), and Kerr–Newman (KN). Changkai Chen develops and maintains the datasets and visualization programs.
 
 ## Contents
 
 | Black hole | Dataset and programs | Coverage |
 | --- | --- | --- |
 | Schwarzschild | [Schwarzschild/S2](Schwarzschild/S2) | Gravitational QNM spectra for ell = 2, 3, with MATLAB visualization. |
-| Kerr | [Kerr/S2/Kerr_Spectrum](Kerr/S2/Kerr_Spectrum) | Nonextremal and extremal gravitational spectra for ell = 2, 3 and parent overtones 0–41; MATLAB, Mathematica, and Python visualization. |
-| Reissner–Nordström (RN) | [Reissner-Nordstrom](Reissner-Nordstrom) | Gravitational spectra from zero to extremal charge for ell = 2, 3 and parent overtones 0–41; MATLAB, Mathematica, and Python visualization. |
-| Kerr–Newman (KN) | See the Type-D study cited below | Part of the research scope; a dedicated dataset directory has not yet been uploaded. |
+| Kerr | [Kerr/S2/Kerr_Spectrum](Kerr/S2/Kerr_Spectrum) | Nonextremal and extremal gravitational spectra for ell = 2, 3 and parent overtones 0–41. Includes MATLAB, Mathematica, and Python programs. |
+| Reissner–Nordström (RN) | [Reissner-Nordstrom](Reissner-Nordstrom) | Gravitational spectra from zero to extremal charge for ell = 2, 3 and parent overtones 0–41. Includes MATLAB, Mathematica, and Python programs. |
+| Kerr–Newman (KN) | Dataset not yet available | Included in the project scope. |
 
 ## Kerr spectra, including extremal Kerr
 
@@ -31,68 +31,44 @@ The earlier L2, L3, and L4 datasets and programs are preserved in [Kerr/S2/Old_V
 
 ## How to cite
 
-Please cite the papers relevant to the data used.
+Please cite the paper corresponding to the dataset you use.
 
-### I. Type-D black holes
-
-[Physical Review D 112, 103036 (2025)](https://doi.org/10.1103/f8m8-vr4l) · [arXiv:2506.14635](https://arxiv.org/abs/2506.14635)
+1. **Schwarzschild and Kerr.** [Phys. Rev. D 112, 103036 (2025)](https://doi.org/10.1103/f8m8-vr4l) · [arXiv:2506.14635](https://arxiv.org/abs/2506.14635)
+2. **Extremal Kerr.** [arXiv:2610.39095](https://arxiv.org/abs/2610.39095)
+3. **Reissner–Nordström.** [arXiv:2611.24647](https://arxiv.org/abs/2611.24647)
 
 ```bibtex
 @article{Chen:2025sbz,
-
-    author = "Chen, Changkai and Jing, Jiliang and Cao, Zhoujian and Wang, Mengjie",
-    
-    title = "{Complete quasinormal modes of type-D black holes}",
-    
-    eprint = "2506.14635",
-    
-    archivePrefix = "arXiv",
-    
-    primaryClass = "gr-qc",
-    
-    doi = "10.1103/f8m8-vr4l",
-    
-    journal = "Phys. Rev. D",
-    
-    volume = "112",
-    
-    number = "10",
-    
-    pages = "103036",
-    
-    year = "2025"
-    
+  author        = {Chen, Changkai and Jing, Jiliang and Cao, Zhoujian and Wang, Mengjie},
+  title         = {{Complete quasinormal modes of type-D black holes}},
+  journal       = {Phys. Rev. D},
+  volume        = {112},
+  number        = {10},
+  pages         = {103036},
+  year          = {2025},
+  doi           = {10.1103/f8m8-vr4l},
+  eprint        = {2506.14635},
+  archivePrefix = {arXiv},
+  primaryClass  = {gr-qc}
 }
-```
 
-### II. Extremal Kerr black holes
-
-[arXiv:2610.39095](https://arxiv.org/abs/2610.39095)
-
-```bibtex
 @article{Chen:2026hjt,
-    author = "Chen, Changkai and Zhang, Xiaohua and Cao, Zhoujian and Jing, Jiliang",
-    title = "{Complete quasinormal modes of Type-D black holes. II. Extremal Kerr black holes}",
-    eprint = "2610.39095",
-    archivePrefix = "arXiv",
-    primaryClass = "gr-qc",
-    month = "10",
-    year = "2026"
+  author        = {Chen, Changkai and Zhang, Xiaohua and Cao, Zhoujian and Jing, Jiliang},
+  title         = {{Complete quasinormal modes of Type-D black holes. II. Extremal Kerr black holes}},
+  month         = {10},
+  year          = {2026},
+  eprint        = {2610.39095},
+  archivePrefix = {arXiv},
+  primaryClass  = {gr-qc}
 }
-```
 
-### III. Reissner–Nordström spectra
-
-[arXiv:2611.24647](https://arxiv.org/abs/2611.24647)
-
-```bibtex
 @article{Chen:2026swp,
-    author = "Chen, Changkai and Zhang, Xiaohua and Cao, Zhoujian and Jing, Jiliang",
-    title = {{Complete quasinormal modes of Type-D black holes. III. Reissner-Nordstr{\"o}m spectra from zero to extremal charge}},
-    eprint = "2611.24647",
-    archivePrefix = "arXiv",
-    primaryClass = "gr-qc",
-    month = "11",
-    year = "2026"
+  author        = {Chen, Changkai and Zhang, Xiaohua and Cao, Zhoujian and Jing, Jiliang},
+  title         = {{Complete quasinormal modes of Type-D black holes. III. Reissner-Nordstr{\"o}m spectra from zero to extremal charge}},
+  month         = {11},
+  year          = {2026},
+  eprint        = {2611.24647},
+  archivePrefix = {arXiv},
+  primaryClass  = {gr-qc}
 }
 ```
